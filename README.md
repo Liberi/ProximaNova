@@ -1,7 +1,8 @@
 # Porten
-Здесь вы можете увидеть макет одностраничного сайта (для экранов шириной 1920px) на платформе [**Figma**](https://www.figma.com/file/qDarjExMqDb8vOb6LKnB9R/Templates-%2317.-More-on-Figma.info-(Copy)?type=design&node-id=0-1&mode=design&t=1jnsnWLbKLgNAtqN-0).
+Здесь вы можете увидеть макет одностраничного сайта (для экранов шириной 1920px) на платформе [**Figma**](https://www.figma.com/file/kLGYWovBaXVsFhqaD5n4Wc/Templates-%2322.-More-on-d-e-n.info-(Copy)?type=design&node-id=0-1&mode=design&t=Wn80CF4AiAy5xncu-0).
 > [!TIP]
-> Проект тренировочной (для обучения) разработки сайта компании Porten.
+> Проект тренировочной (для обучения) разработки сайта компании ElMessiri.
 
-![portenHed](https://github.com/Liberi/Porten/assets/130091860/0f5b0f4e-f857-469b-a5f6-4b120f84d3b8)
+![image](https://github.com/Liberi/ProximaNova/assets/130091860/7dfbcc27-417e-4c02-a6ff-b318ddbf1ba6)
+
 
