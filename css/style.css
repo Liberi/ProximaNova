@@ -21,3 +21,157 @@
    margin: 0;
    padding: 0;
 }
+a
+{ 
+    color: white;
+    font-family: ProximaNovaRegular;
+    text-decoration: none;
+}
+a:hover {text-decoration: underline;}
+button:hover {filter: brightness(85%);} /*делает кнопку темнее*/
+ul 
+{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+body
+{
+    color: white;
+    background-color: rgba(22, 40, 49, 1);
+    padding: 0 16%;
+}
+h2
+{
+    font-family: ElMessiriRegular;
+    color: white;
+}
+hr
+{
+    width: 28px;
+    height: 14px;
+    background-color: rgba(1, 138, 190, 1);
+    border: none;
+}
+main
+{
+    margin-top: 150px;
+}
+.flex_ctr
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.petal_right 
+{
+    border-radius: 0px 50px;
+    margin-right: 55px;
+}
+.petal_left
+{
+    border-radius: 50px 0px;
+    margin-left: 55px;
+}
+.petal_block
+{
+    font-family: ElMessiriRegular;
+    font-size: 42px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 100%;
+}
+.main_header
+{
+    margin: 30px 0 50px 0;
+    display: flex;
+    align-items: center;
+}
+.main_header ul 
+{
+    font-size: 14px;
+    width: 55%;
+    margin: 0 15%;
+}
+.main_header button
+{
+    font-family: ProximaNovaRegular;
+    color: white;
+    font-size: 13px;
+    height: 36px;
+    width: 13%;
+    background-color: rgba(1, 138, 190, 1);
+    border-radius: 3px;
+    border: none;
+}
+.first_screen
+{
+    font-weight: 300;
+    font-family: ElMessiriRegular;
+    background: linear-gradient(rgba(152, 201, 220, 0.5),rgba(152, 201, 220, 0.5)), url("../img/fons/hed_img.jpg") center center no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    height: 600px;
+}
+.first_screen hr {background-color: white;}
+.first_screen p {font-size: 24px}
+.first_screen h2 
+{
+    width: 35%;
+    margin-top: 40px;
+    text-align: center;
+    font-size: 64px;
+    font-weight: 500;
+}
+.services
+{
+    height: 700px;
+    flex-direction: row;
+}
+.services_card
+{
+    height: 540px;
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.services_card li,
+.services > div
+{
+    width: 49%;
+    height: 258px;
+    background: linear-gradient(rgba(1, 138, 190, 0.5),rgba(1, 138, 190, 0.5)), url("../img/fons/main_img.jpg") center center no-repeat;
+    border-radius: 10px;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+}
+.services_card li:hover
+{
+    border-bottom: rgba(1, 138, 190, 1) 7px solid;
+    height: 251px;
+}
+.services > div:hover
+{
+    border-bottom: rgba(1, 138, 190, 1) 7px solid;
+    height: 533px;
+}
+.services > div
+{
+    margin-right: 2%;
+    height: 540px;
+    width: 56%;
+}
+.services p
+{
+    font-family: ElMessiriRegular;
+    font-size: 24px;
+    width: 80%;
+    margin: 0 0 10% 10%;
+}
+
