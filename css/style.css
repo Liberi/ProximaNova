@@ -40,11 +40,10 @@ body
 {
     color: white;
     background-color: rgba(22, 40, 49, 1);
-    padding: 0 16%;
 }
 h2
 {
-    font-family: ElMessiriRegular;
+    font-family: ProximaNovaRegular;
     color: white;
 }
 hr
@@ -54,10 +53,8 @@ hr
     background-color: rgba(1, 138, 190, 1);
     border: none;
 }
-main
-{
-    margin-top: 150px;
-}
+main .petal_block {margin: 150px 0 100px 0;}
+header {padding: 0 16%;}
 .flex_ctr
 {
     display: flex;
@@ -82,7 +79,6 @@ main
     align-items: center;
     justify-content: center;
     display: flex;
-    width: 100%;
 }
 .main_header
 {
@@ -118,7 +114,7 @@ main
 }
 .first_screen hr {background-color: white;}
 .first_screen p {font-size: 24px}
-.first_screen h2 
+.first_screen h1 
 {
     width: 35%;
     margin-top: 40px;
@@ -127,8 +123,8 @@ main
     font-weight: 500;
 }
 .services
-{
-    height: 700px;
+{   
+    margin: 0 16%;
     flex-direction: row;
 }
 .services_card
@@ -150,6 +146,7 @@ main
     background-size: cover;
     display: flex;
     align-items: flex-end;
+    transition: all 0.3s ease-in-out;
 }
 .services_card li:hover
 {
@@ -173,5 +170,145 @@ main
     font-size: 24px;
     width: 80%;
     margin: 0 0 10% 10%;
+}
+.reviews
+{
+    margin: 0 5%;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.reviews div
+{
+    color: rgba(255, 255, 255, 50%);
+    font-size: 16px;
+    font-family: ProximaNovaRegular;
+    padding: 40px 45px 0 45px;
+    width: 22%;
+    height: 231px;
+    background-color: rgba(14, 79, 105, 1);
+    border-radius: 10px;
+    transition: all 1s ease-in-out;
+}
+.reviews div p 
+{
+    font-size: 10px;
+    margin-top: 15px;
+    transition: all 0.8s ease-in-out;
+}
+.reviews div h4 {transition: all 0.8s ease-in-out;}
+.reviews div:hover
+{
+    color: white;
+    padding: 50px 60px 0 60px;
+    width: 28%;
+    height: 290px;
+    background-color: rgba(1, 138, 190, 1);
+}
+.reviews div:hover p 
+{
+    font-size: 14px;
+    margin-top: 20px;
+}
+.reviews div:hover h4 {font-size: 20px;}
+section:hover + .controls div
+{
+    transition: all 0.8s ease-in-out;
+    background-color: white;
+}
+.controls {margin-top: 60px;}
+.controls div
+{
+    display: inline-block;
+    margin: 0 10px;
+    width: 16px;
+    height: 16px;
+    border-radius: 3px;
+    background-color: rgba(255, 255, 255, 50%);
+}
+.about
+{
+    justify-content: space-between;
+    margin: 0 21%;
+    height: 850px;
+    font-family: ProximaNovaRegular;
+}
+.about h2
+{
+    font-size: 24px;
+    align-self: flex-start;
+    margin-bottom: 30px;
+/*    color: white;*/
+}
+.about img
+{
+    width: 49%;
+    height: 365px;
+    border-radius: 10px;
+}
+.about div.flex_ctr
+{
+    color: rgba(255, 255, 255, 60%);
+    width: 43%;
+    height: 100%;
+}
+.about > div:first-of-type img,
+.about > div:last-of-type div
+{
+    float: right;
+}
+.about > div:last-of-type img,
+.about > div:first-of-type div
+{
+    float: left;
+}
+.price
+{
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 21%;
+    height: 500px;
+    width: 58%;
+}
+.price ul 
+{
+    display: inline-block;
+    width: 38%;
+}
+.price ul li
+{
+    margin-bottom: 31px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.price hr
+{
+    width: 18px;
+    height: 9px;
+    margin-right: 8px;
+}
+.price p
+{
+    font-family: ProximaNovaRegular;
+    font-size: 18px;
+    width: 70%;
+}
+.price h3
+{
+    font-family: ElMessiriRegular;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+}
+.price div
+{
+    display: inline-block;
+    width: 49%;
+}
+.price img
+{
+    margin-bottom: 30px;
+    width: 100%;
+    height: 396px;
+    border-radius: 10px;
 }
 
