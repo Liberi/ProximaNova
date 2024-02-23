@@ -28,7 +28,7 @@ a
     text-decoration: none;
 }
 a:hover {text-decoration: underline;}
-button:hover {filter: brightness(85%);} /*делает кнопку темнее*/
+button:hover {filter: brightness(85%);} /*делает кнопку прозрачнее*/
 ul 
 {
     list-style: none;
@@ -311,4 +311,73 @@ section:hover + .controls div
     height: 396px;
     border-radius: 10px;
 }
-
+.contacts
+{
+    margin: 150px 17% 90px 17%;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.contacts div
+{
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 29%;
+    height: 604px;
+}
+.contacts img
+{
+    height: 604px;
+    width: 68%;
+}
+.contacts ul 
+{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 35px 45px 20px 45px;
+    display: inline-block;
+    background-color: rgba(1, 138, 190, 1);
+    border-radius: 10px;
+}
+.contacts ul li
+{
+    display: flex;
+    justify-content: flex-start;
+    padding-bottom: 20px;
+    font-family: ProximaNovaRegular;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 80%);
+}
+.contacts li img
+{
+    width: 20px;
+    height: 20px;
+    margin-right: 20px;
+}
+.contacts li:first-of-type
+{
+    font-family: ElMessiriRegular;
+    font-size: 24px;
+    color: white;
+}
+.contacts button
+{
+    height: 36px;
+    padding: 0 15px;
+    border-radius: 3px;
+    color: rgba(1, 138, 190, 1);
+    border: none;
+}
+.main_footer
+{
+    margin: 20px 17%;
+    display: flex;
+    justify-content: space-between;
+    font-family: ProximaNovaRegular;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 80%);
+}
+.main_footer a
+{
+    color: white;
+    font-weight: 700;
+} 
